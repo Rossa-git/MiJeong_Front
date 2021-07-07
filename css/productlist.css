@@ -1,0 +1,121 @@
+/* 나중에 지울 내용*/
+
+
+
+
+/* 상품카드 리스트 시작*/
+.product-list-row .card-list-wrap {
+    border-radius: 1px solid #000;
+    padding: 10px;
+}
+
+.product-list-row .card-list-inner {
+    position: relative;
+    overflow: hidden;
+}
+
+.product-list-row .card-list-inner .card-wrap {
+    float: left;
+    width: 20%;
+    height: 360px;
+    padding: 5px;
+}
+
+.card-wrap .card-inner-box {
+    border: 1px solid #777;
+}
+
+/*상품 카드 헤더 영역*/
+.product-list-row .card-inner-box > .card-header {
+    width: 100%;
+    height: 120px;
+    padding: 5px;
+}
+
+.product-list-row .card-header > img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*상품 카드 바디 영역*/
+.product-list-row .card-inner-box > .card-body {
+    width: 100%;
+    height: 160px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-inner-box > .card-body > .card-body-info {
+    float: left;
+    width: 70%;
+    height: 100%;
+    padding: 5px;
+}
+
+.card-body-info .card-info-product-no {
+    font-size: 0.7em;
+    height: 18px;
+}
+
+.card-body-info .card-info-product-name {
+    font-weight: 800;
+    font-size: 1.1em;
+    height: 50px;
+}
+
+.card-body-info .card-info-artist-name {
+    height: 24px
+}
+
+.card-body-info .card-info-product-content {
+    font-size: 0.8em;
+    letter-spacing: -1px;
+    height: 50px;
+
+    overflow: hidden;
+
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	word-wrap:break-word;
+
+}
+
+.card-inner-box > .card-body > .card-body-util {
+    float: right;
+    width: 30%;
+    height: 100%;
+}
+
+/*상품 카드 푸터 영역*/
+.product-list-row .card-inner-box > .card-footer {
+    width: 100%;
+    height: 70px;
+}
+/* 상품카드 리스트 끝*/
+
+
+/* 페이징영역 시작 */
+.product-pagenation-wrap {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.product-pagenation > li:first-child > a, .product-pagenation > li:last-child > a{
+    border-radius: 0;
+}
+
+.product-pagenation .active > a {
+    background-color: black;
+    border-color: black;
+}
+
+.product-pagenation li a {
+    margin: 0px 1px;
+    color: black;
+}
+
+/* 페이징영역 끝 */
