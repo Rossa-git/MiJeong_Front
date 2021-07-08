@@ -1,0 +1,39 @@
+/* 문의하기 모달 시작*/
+#questModal .modal-quest {
+    border-radius: 0px;
+    padding: 10px;
+    height: 200px
+}
+
+.modal-quest .modal-quest-header {
+    padding: 0px 32px;
+    border-bottom: 0px;
+    color: #5c0931;
+    font-weight: 700;
+}
+
+.modal-quest .modal-quest-body {
+    position: relative;
+    overflow: hidden;
+}
+
+.modal-quest-body .quest-content-textarea {
+    border-radius: 0;
+    height: 100px;
+    resize: none;
+}
+
+.modal-quest-body .quest-content-textarea:focus {
+    outline: 0;
+    border-color: #5c0931;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.modal-quest-body .quest-btn {
+    background-color: #5c0931;
+    color: #fff;
+    float: right;   
+    margin-top: 10px;
+}
+/* 문의하기 모달 종료*/
